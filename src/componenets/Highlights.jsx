@@ -3,7 +3,7 @@ import React from "react";
 function Highlights({ stats }) {
   return (
     <div className="bg-slate-600 p-2 text-slate-200 flex flex-col justify-start items-center ">
-      <h2 className="text-sm mt-2">Wind Status</h2>
+      <h2 className="text-sm mt-2">{stats.title}</h2>
       <div className="mt-2">
         {" "}
         <span className="text-4xl font-bold">{stats.value}</span>
